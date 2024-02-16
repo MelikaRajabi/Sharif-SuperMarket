@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ShowOrders">
+   <children>
+      <ImageView fitHeight="823.0" fitWidth="1287.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/showProductss.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="menu" layoutX="926.0" layoutY="219.0" mnemonicParsing="false" onAction="#back" prefHeight="65.0" prefWidth="214.0" style="-fx-background-color: #ff99cc;" text="Menu">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="order" layoutX="901.0" layoutY="302.0" mnemonicParsing="false" onAction="#showOrders" prefHeight="65.0" prefWidth="263.0" style="-fx-background-color: #ff99cc;" text="Orders History">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

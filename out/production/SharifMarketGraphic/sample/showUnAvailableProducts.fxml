@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.showUnAvailableProducts">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="820.0" fitWidth="1328.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/showProducts.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="showUnAvailableProducts" layoutX="448.0" layoutY="251.0" mnemonicParsing="false" onAction="#showUnAvailableProducts" prefHeight="111.0" prefWidth="367.0" style="-fx-background-color: #9933ff;" text="Unavailable Products" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu" layoutX="1079.0" layoutY="727.0" mnemonicParsing="false" onAction="#back" prefHeight="49.0" prefWidth="162.0" style="-fx-background-color: #33ffd6;" text="Menu">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
